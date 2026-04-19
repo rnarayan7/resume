@@ -1,0 +1,159 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Roshan Narayan</title>
+<style>
+body {
+    color: #000000;
+    background: #EEEEEE;
+    font: 1.05em "Times New Roman";
+    line-height: 1.15;
+    margin: 40px 0;
+}
+#resume {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 40px 60px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+}
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 200%;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    border-bottom: 1px solid #000000;
+    text-transform: uppercase;
+    font-size: 120%;
+    margin: 0.8em 0 0.1em 0;
+    padding: 0;
+}
+h3 {
+    font-size: 120%;
+    margin: 0.8em 0 0.1em 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+h4 {
+    font-size: 100%;
+    margin: 0.8em 0 0.1em 0;
+    padding: 0;
+}
+h5 {
+    font-size: 80%;
+    margin: 0.8em 0 0.1em 0;
+    padding: 0;
+}
+p {
+    margin: 0 0 0.5em 0;
+    padding: 0;
+}
+ul {
+    padding: 0;
+    margin: 0 1.5em;
+}
+h1 + ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h1 + ul > li {
+    display: inline;
+    white-space: pre;
+    list-style-type: none;
+}
+h1 + ul > li:after {
+    content: "  \2022  ";
+}
+h1 + ul > li:last-child:after {
+    content: "";
+}
+h1 + ul + p {
+    margin: 1em 0;
+}
+@media print {
+    body {
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+        background: none;
+    }
+    #resume {
+        margin: 0;
+        padding: 0;
+        border: 0px;
+        background: none;
+    }
+    a, a:link, a:visited, a:hover {
+        color: #000000;
+        text-decoration: underline;
+    }
+}
+@page {
+    size: letter;
+    margin: 0.5in 0.8in;
+}
+
+</style>
+</head>
+<body>
+<div id="resume">
+<h1>Roshan Narayan</h1>
+<ul>
+<li><a href="mailto:roshannarayan98@gmail.com">roshannarayan98@gmail.com</a></li>
+<li>(408) 603-5542</li>
+<li>New York, NY (open to relocation)</li>
+</ul>
+<p>Software engineer and technical leader with deep expertise in cloud infrastructure, AI/ML platforms, and developer tooling. Experience spanning a VC-backed startup and a large-scale quantitative investment firm.</p>
+<h2>Experience</h2>
+<h3><span>Software Engineer, Two Sigma</span> <span>Oct 2021 &ndash; present</span></h3>
+<h4>Realtime Thematic Research Pipeline</h4>
+<ul>
+<li>Identified a gap in PM tooling and built a realtime thematic research pipeline from scratch, consolidating 4 fragmented systems into a single platform for 100s of users</li>
+<li>Built a Kafka-based data pipeline processing multiple GB/day across all equities in 6 regions with 1-minute latency</li>
+<li>Implemented PnL attribution, factor decomposition, and exposure analysis computations powering realtime thematic views</li>
+<li>Developed LLM-driven visualizations for summarizing themes, generating charts, and mapping themes to tickers using factor model outputs</li>
+<li>Shipped end-to-end as sole engineer, collaborating with 4 external teams and PM stakeholders</li>
+</ul>
+<h4>AI/LLM Platform</h4>
+<ul>
+<li>Deployed and scaled Azure OpenAI model infrastructure across multiple regions, supporting production trading models and internal tools</li>
+<li>Implemented scalability improvements across model deployments, addressing latency, cost, and regional availability constraints</li>
+</ul>
+<h4>Technical Lead, Connected Cloud</h4>
+<h5>Technical</h5>
+<ul>
+<li>Architected, shipped, and maintained the infrastructure-as-code platform for GCP at Two Sigma, reducing deployment times from 1-2 days to 15 minutes</li>
+<li>Scaled the platform from launch to 3000+ GCP projects and 50,000+ resources backed by Terraform, establishing it as the standard for cloud infrastructure at Two Sigma</li>
+<li>Built and grew the Terraform developer ecosystem at Two Sigma, including a Module Registry, simplified authentication, and internal documentation</li>
+<li>Designed a policy engine that automated the code review process for infrastructure changes, reducing developer wait times from 1 day to 2 minutes</li>
+<li>Partnered with 6+ teams across platform engineering to migrate from bespoke configurations to standardized infrastructure-as-code</li>
+</ul>
+<h5>Leadership</h5>
+<ul>
+<li>Defined areas of investment across feature development and platform risk reduction, identifying and prioritizing high-impact initiatives for the platform's roadmap</li>
+<li>Mentored and onboarded 3 engineers, providing technical and career guidance throughout their development</li>
+</ul>
+<h3><span>Software Engineer, Clumio (Series B, backed by Sutter Hill Ventures)</span> <span>Feb 2020 &ndash; Aug 2021</span></h3>
+<h4>Enterprise Cloud Data Protection</h4>
+<ul>
+<li>Architected and delivered the core data protection feature set for Clumio's Cloud Protect platform, directly contributing to the product's enterprise readiness</li>
+<li>Engaged with enterprise customers through technical evaluations and partnered with customer success teams to drive onboarding</li>
+<li>Built a service to automate provisioning and management of customers' AWS accounts, resources, and data sets</li>
+</ul>
+<h2>Education</h2>
+<h3><span>University of Michigan, Ann Arbor. BSE Computer Science</span> <span> Aug 2016 &ndash; Jun 2019</span></h3>
+<p>Graduated in 3 years. GPA 3.6. GRE 338 (170Q, 168V)</p>
+<h2>Skills</h2>
+<ul>
+<li>Languages: Python, Java, Golang</li>
+<li>Infrastructure: GCP, AWS, Azure, Terraform, Kubernetes</li>
+<li>AI/ML: OpenAI API, Azure OpenAI, LLM deployment &amp; evaluation</li>
+</ul>
+</div>
+</body>
+</html>
